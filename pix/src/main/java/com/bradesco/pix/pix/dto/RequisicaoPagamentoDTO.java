@@ -1,7 +1,5 @@
 package com.bradesco.pix.pix.dto;
 
-import com.bradesco.pix.pix.domain.StatusPagamento;
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
