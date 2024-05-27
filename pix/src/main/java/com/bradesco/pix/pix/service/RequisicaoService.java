@@ -34,6 +34,7 @@ public class RequisicaoService {
                 .nomeProduto(requisicaoPagamentoDTO.getNomeProduto())
                 .precoProduto(requisicaoPagamentoDTO.getPrecoProduto())
                 .pix(requisicaoPagamentoDTO.getPix())
+                .statusPagamento(StatusPagamento.NAO_PAGO)
                 .build();
 
         //Salva a transação
